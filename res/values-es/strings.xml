@@ -8,7 +8,7 @@
     <string name="category_apk">APKs</string>
     <string name="category_document">Documentos</string>
     <string name="category_favorite">Favoritos</string>
-    <string name="category_music">Musica</string>
+    <string name="category_music">Música</string>
     <string name="category_other">Varios</string>
     <string name="category_picture">Imagenes</string>
     <string name="category_theme">Temas</string>
@@ -41,6 +41,7 @@
     <string name="no">No</string>
     <string name="no_file">No hay archivos</string>
     <string name="no_wifi">No hay red Wi-Fi</string>
+    <string name="no_wifi_hint">WiFi no disponible presiona para ajustar WiFi</string>
     <string name="notif_server_starting">Iniciado FTP Server</string>
     <string name="notif_title">FTP Server</string>
     <string name="operation_cancel">Cancela</string>
@@ -67,24 +68,36 @@
     <string name="operation_show_sys">Muestra archivos ocultos</string>
     <string name="operation_unfavorite">Elimina de Favoritos</string>
     <string name="removed_favorite">Eliminado de Favoritos</string>
+    <string name="sd_card_available">Espacio disponible:<xliff:g id="available_size">%1$s</xliff:g></string>
     <string name="sd_folder">SD Card</string>
     <string name="search_hint">Busca archivos</string>
     <string name="search_title">Busca archivos</string>
     <string name="start_server">Inicia Servicio</string>
     <string name="stop_server">Para Servicio</string>
     <string name="storage_warning">El almacenamiento externo no está disponible o no se puede leer</string>
+    <string name="tab_category">Muestra</string>
     <string name="tab_remote">FTP</string>
-    <string name="tab_sd">SD card</string>
+    <string name="tab_sd">Archivo</string>
     <string name="wifi_state">Estado WLAN</string>
     <string name="yes">Si</string>
-    <string name="dialog_select_type">Seleccia tipo de archivo</string>
+    <string name="dialog_select_type">Selecciona tipo de archivo</string>
     <string name="dialog_type_text">Texto</string>
     <string name="dialog_type_audio">Audio</string>
     <string name="dialog_type_video">Video</string>
     <string name="dialog_type_image">Imagen</string>
     <string name="favorite_photo">Fotografía</string>
     <string name="favorite_sdcard">SD Card</string>
-    <string name="favorite_screen_cap">Captura de pantalla</string>
+    <string name="favourite_root">Root</string><string name="favorite_screen_cap">Captura de pantalla</string>
     <string name="favorite_ringtone">Tono</string>
-    <string name="multi_select_title" >Selecciona <xliff:g id="number">%1$s</xliff:g> archivo(s)</string>
+    <string name="multi_select_title" >Seleccionado(s) <xliff:g id="number">%1$s</xliff:g> archivo(s)</string>
+    <string name="menu_setting">Ajustes</string>
+    <string name="menu_exit">salir</string>
+    <string name="preference_title">Ajustes generales</string>
+    <string name="pref_primary_folder">Carpeta raiz</string>
+    <string name="pref_read_root">Lee root</string>
+    <string name="pref_show_real_path">Muestra ruta real</string>
+    <string name="default_primary_folder">/mnt/sdcard</string>
+    <string name="pref_primary_folder_summary">La carpeta que aparece cuando la aplicación se inicia, y el valor actual es <xliff:g id="string">%1$s</xliff:g></string>
+    <string name="pref_show_real_path_summary">Muestra la ruta real en la barra de navegación</string>
+
 </resources>
